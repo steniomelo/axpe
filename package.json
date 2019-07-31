@@ -10,8 +10,7 @@
     "dev": "NODE_ENV=development webpack-dev-server --config config/webpack.config.js",
     "build": "NODE_ENV=production webpack --config config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-staged": "lint-staged",
-    "postbuild": "react-snap"
+    "lint-staged": "lint-staged"
   },
   "keywords": [],
   "author": "",
@@ -60,7 +59,6 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.17.1",
     "react-hot-loader": "^4.8.8",
-    "react-snap": "^1.23.0",
     "redux-logger": "^3.0.6",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
@@ -90,6 +88,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-inlinesvg": "^1.1.4",
     "react-router-dom": "^5.0.0",
     "whatwg-fetch": "^3.0.0"
   }

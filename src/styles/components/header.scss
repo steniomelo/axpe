@@ -1,3 +1,15 @@
-// .header {}
+.header {
+  // header
+}
 
-// @include min-screen(mq('laptop')) { }
+@include min-screen(mq('tablet')) {
+  .header {
+    //tablet
+  }
+}
+
+@include min-screen(mq('desktop')) {
+  .header {
+    //desktop
+  }
+}

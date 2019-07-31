@@ -1,17 +1,28 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import SVG from 'react-inlinesvg';
+
+// assets
+import IconFacebookSVG from 'images/icons/facebook';
 
 class Header extends Component {
   render() {
     return (
       <header className="header">
         <p>Header here</p>
-        <ul>
+        <ul className="header-nav">
           <li>
-            <Link to="/">Home</Link>
-            <Link to="/contato">Contato</Link>
+            <NavLink to="/" exact activeClassName="active">
+              Home
+            </NavLink>
+            <NavLink to="/contato" exact activeClassName="active">
+              Contato
+            </NavLink>
           </li>
         </ul>
+        <a href="https://www.facebook.com" className="header__facebook">
+          <SVG src={IconFacebookSVG} />
+        </a>
       </header>
     );
   }
