@@ -8,7 +8,10 @@ $Arial: 'Arial';
 // colors
 $colors: (
   'white': #fff,
-  'black': #000
+  'black': #000,
+  'bluedark': #37474f,
+  'orange': #ee6900,
+  'greenwhatsapp': #2cb743
 );
 
 // media queries
@@ -24,3 +27,5 @@ $mq: (
   'desktop-big': 1680px,
   'desktop-large': 1920px
 );
+
+$padding-mobile: 30px;

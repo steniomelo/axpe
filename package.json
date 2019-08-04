@@ -91,6 +91,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.0",
+    "react-svg": "^10.0.14",
     "whatwg-fetch": "^3.0.0"
   }
 }
