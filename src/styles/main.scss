@@ -1,10 +1,12 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: color('bluedark');
 }
 
 a {
   transition: all 300ms ease;
+  color: color('bluedark');
 }
 
 p,
@@ -29,4 +31,19 @@ button {
   -webkit-appearance: none;
 }
 
-// @include min-screen(mq('tablet')) {}
+@include min-screen(mq('desktop')) {
+  html,
+  body,
+  .main {
+    height: 100%;
+  }
+
+  .main {
+    display: flex;
+  }
+
+  .wrapper {
+    flex: 1 1 auto;
+    background-color: azure;
+  }
+}
