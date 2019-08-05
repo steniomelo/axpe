@@ -2,10 +2,30 @@ import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import ReactSVG from 'react-svg';
 
+// assets
+import IconCloudSVG from 'images/icons/icon-cloud';
+
 class Header extends Component {
+  state = {
+    navActive: false
+  };
+
+  btnNavToggle = () => {
+    this.setState({
+      navActive: !this.state.navActive
+    });
+  };
+
   render() {
+    const { navActive } = this.state;
+    const classes = [ `header` ];
+
+    if (navActive) {
+      classes.push(`active`);
+    }
+
     return (
-      <header className="header">
+      <header className={classes.join(' ')}>
         <div className="header-elements">
           <Link to="/" className="header-logo">
             Ir para home
@@ -15,10 +35,17 @@ class Header extends Component {
             src="src/images/icons/icon-search.svg"
             className="header-elements__icon-search show-mobile"
           />
-          <ReactSVG
-            src="src/images/icons/icon-menu.svg"
-            className="header-elements__icon-menu show-mobile"
-          />
+
+          <button
+            type="button"
+            className="header-elements__toggle"
+            onClick={this.btnNavToggle}
+          >
+            <ReactSVG
+              src="src/images/icons/icon-menu.svg"
+              className="header-elements__icon-menu show-mobile"
+            />
+          </button>
         </div>
 
         <div className="header-content">
@@ -61,7 +88,7 @@ class Header extends Component {
                   className="header-nav-item__btn"
                 >
                   <ReactSVG
-                    src="src/images/icons/icon-cloud.svg"
+                    src={IconCloudSVG}
                     className="header-nav-item__icon"
                   />
                   <span className="header-nav-item__label">

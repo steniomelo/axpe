@@ -7012,23 +7012,6 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-<<<<<<< HEAD
-react-snap@^1.23.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/react-snap/-/react-snap-1.23.0.tgz#bf857a1810cd1ec8f9c54f5746568bccfb7447e5"
-  integrity sha512-spmg2maHSedLrn6QBAfLJkyMqeeffLTIs7h40pS1copW2xBrajx4HEAcanm+7IVGO6SYCPoGwvbU3U30UFN25g==
-  dependencies:
-    clean-css "4.2.1"
-    express "4.16.4"
-    express-history-api-fallback "2.2.1"
-    highland "2.13.0"
-    html-minifier "3.5.21"
-    minimalcss "0.8.1"
-    mkdirp "0.5.1"
-    puppeteer "^1.8.0"
-    serve-static "1.13.2"
-    sourcemapped-stacktrace-node "2.1.8"
-
 react-svg@^10.0.14:
   version "10.0.14"
   resolved "https://registry.yarnpkg.com/react-svg/-/react-svg-10.0.14.tgz#226715271f2f8063d1c73220e46a2a383b239e6f"
@@ -7038,8 +7021,6 @@ react-svg@^10.0.14:
     "@tanem/svg-injector" "^8.0.23"
     prop-types "^15.7.2"
 
-=======
->>>>>>> e0e0d1721f640adfb08687bc1104121a05d376ff
 react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
