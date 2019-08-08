@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import ReactSVG from 'react-svg';
+import SVG from 'react-inlinesvg';
 
 // assets
 import IconCloudSVG from 'images/icons/icon-cloud';
@@ -21,7 +21,7 @@ class Header extends Component {
     const classes = [ `header` ];
 
     if (navActive) {
-      classes.push(`active`);
+      classes.push(`header--active`);
     }
 
     return (
@@ -31,7 +31,7 @@ class Header extends Component {
             Ir para home
           </Link>
 
-          <ReactSVG
+          <SVG
             src="src/images/icons/icon-search.svg"
             className="header-elements__icon-search show-mobile"
           />
@@ -41,7 +41,7 @@ class Header extends Component {
             className="header-elements__toggle"
             onClick={this.btnNavToggle}
           >
-            <ReactSVG
+            <SVG
               src="src/images/icons/icon-menu.svg"
               className="header-elements__icon-menu show-mobile"
             />
@@ -57,7 +57,7 @@ class Header extends Component {
                   activeClassName="is-active"
                   className="header-nav-item__btn"
                 >
-                  <ReactSVG
+                  <SVG
                     src="src/images/icons/icon-search.svg"
                     className="header-nav-item__icon"
                   />
@@ -71,7 +71,7 @@ class Header extends Component {
                   activeClassName="is-active"
                   className="header-nav-item__btn"
                 >
-                  <ReactSVG
+                  <SVG
                     src="src/images/icons/icon-home.svg"
                     className="header-nav-item__icon"
                   />
@@ -87,10 +87,7 @@ class Header extends Component {
                   activeClassName="is-active"
                   className="header-nav-item__btn"
                 >
-                  <ReactSVG
-                    src={IconCloudSVG}
-                    className="header-nav-item__icon"
-                  />
+                  <SVG src={IconCloudSVG} className="header-nav-item__icon" />
                   <span className="header-nav-item__label">
                     Só quero sonhar
                   </span>
@@ -162,7 +159,7 @@ class Header extends Component {
           <footer className="header-info">
             <div className="header-info-whatsapp">
               <Link to="/contato" className="header-info-whatsapp__btn">
-                <ReactSVG
+                <SVG
                   src="src/images/icons/icon-whatsapp.svg"
                   className="header-info-whatsapp__icon"
                 />
@@ -190,7 +187,7 @@ class Header extends Component {
                   to="header-info-social__icon-btn"
                   className="header-info-social__icon-btn"
                 >
-                  <ReactSVG
+                  <SVG
                     src="src/images/icons/icon-social-facebook.svg"
                     className="header-info-social__icon social-icon"
                   />
@@ -199,7 +196,7 @@ class Header extends Component {
                   to="header-info-social__icon-btn"
                   className="header-info-social__icon-btn"
                 >
-                  <ReactSVG
+                  <SVG
                     src="src/images/icons/icon-social-instagram.svg"
                     className="header-info-social__icon social-icon"
                   />
@@ -208,7 +205,7 @@ class Header extends Component {
                   to="header-info-social__icon-btn"
                   className="header-info-social__icon-btn"
                 >
-                  <ReactSVG
+                  <SVG
                     src="src/images/icons/icon-social-linkedin.svg"
                     className="header-info-social__icon social-icon"
                   />
