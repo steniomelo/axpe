@@ -87,6 +87,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "flickity": "^2.2.1",
+    "flickity-fade": "^1.0.0",
     "history": "^4.9.0",
     "promise-polyfill": "^8.1.0",
     "prop-types": "^15.7.2",

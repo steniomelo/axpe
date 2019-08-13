@@ -1,4 +1,5 @@
 @import '../../node_modules/flickity/css/flickity.css';
+@import '../../node_modules/flickity-fade/flickity-fade.css';
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/media-queries';
@@ -6,5 +7,7 @@
 @import 'fonts';
 @import 'helpers/helpers';
 @import 'main';
+@import 'components/flickity';
 @import 'components/header';
+@import 'components/home/home-slide';
 @import 'views/home';
