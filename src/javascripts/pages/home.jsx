@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 import Helmet from 'react-helmet';
+import HomeSlider from 'javascripts/components/home/home-slider';
 
 const Home = () => (
   <Fragment>
@@ -14,7 +15,7 @@ const Home = () => (
       <meta name="twitter:image" content="" />
     </Helmet>
     <div className="page page--home">
-      <p>HOME</p>
+      <HomeSlider />
     </div>
   </Fragment>
 );
