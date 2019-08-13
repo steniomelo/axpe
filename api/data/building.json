@@ -1,0 +1,49 @@
+{
+  "slug": "apartamento-ax3715",
+  "title": "Apartamento espaçoso com cara de casa",
+  "reference": "AX3715",
+  "address": {
+    "condominium": "Edificio Residencial",
+    "neighborhood": "Vila Madalena",
+    "city": "São Paulo",
+    "state": "SP"
+  },
+  "values": {
+    "rent": "R$ 5.200",
+    "sell": "R$ 1.220.000",
+    "free": "A partir de R$ 1.650.000"
+  },
+  "infos": {
+    "type": "Apartamento",
+    "areaUseful": "54 m² a 124 m²",
+    "areaTotal": "90 m²",
+    "areaBuilding": "140 m²",
+    "areaGround": "125 m²",
+    "bedrooms": "2 a 4",
+    "suites": "2",
+    "parking": "1 a 3",
+    "release": "Outubro de 2019",
+    "releaseStatus": "Em construção"
+  },
+  "tour360": "http://www.tour360.com",
+  "content": "Casa loft com arquitetura escandinava e design superdescolado. Tem jardim e dá para ir a pé ao clube.",
+  "images": {
+    "desktop": "https://picsum.photos/id/401/570/370",
+    "mobile": "https://picsum.photos/id/401/340/245"
+  },
+  "gallery": [
+    {
+      "desktop": "https://picsum.photos/id/401/570/530",
+      "mobile": "https://picsum.photos/id/401/375/375"
+    },
+    {
+      "desktop": "https://picsum.photos/id/401/570/530",
+      "mobile": "https://picsum.photos/id/401/375/375"
+    }
+  ],
+  "link": {
+    "target": "_self",
+    "external": false,
+    "url": "/imovel/ax3715"
+  }
+}

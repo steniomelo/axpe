@@ -16,10 +16,11 @@ Project stack:
 
 Here are the commands that are used in the project:
 
-| Command    | Description                               |
-| ---------- | ----------------------------------------- |
-| yarn dev   | Run the project in development with watch |
-| yarn build | Build project                             |
+| Command      | Description                               |
+| ------------ | ----------------------------------------- |
+| yarn dev     | Run the project in development with watch |
+| yarn dev-api | Run api in development                    |
+| yarn build   | Build project                             |
 
 ## Setup of your IDE
 
