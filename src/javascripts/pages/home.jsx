@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import HomeSlider from 'javascripts/components/home/home-slider';
+import HomeBanner from 'javascripts/components/home/home-banner';
+import HomeFeaturedRealty from '../components/home/home-featured-realty';
 
 const Home = () => (
   <Fragment>
@@ -16,6 +18,8 @@ const Home = () => (
     </Helmet>
     <div className="page page--home">
       <HomeSlider />
+      <HomeBanner />
+      <HomeFeaturedRealty />
     </div>
   </Fragment>
 );

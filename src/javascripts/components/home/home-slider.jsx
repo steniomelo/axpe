@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Flickity from 'flickity-fade';
 
 // assets
@@ -6,18 +7,17 @@ import homeSliderImage from 'images/tmp/home-slider.png';
 
 class HomeSlider extends Component {
   componentDidMount() {
-    this.flickity = new Flickity(this.refs.itemsCarousel, {
-      pageDots: false
+    this.homeSlider = new Flickity(this.refs.homeSlider, {
+      pageDots: false,
+      adaptiveHeight: true
     });
-
-    setTimeout(this.flickity.reloadCells(), 1000);
   }
 
   render() {
     return (
       <div className="home-slider">
-        <div className="home-slider-items" ref="itemsCarousel">
-          <div className="home-slider-item">
+        <div className="home-slider-items" ref="homeSlider">
+          <Link to="#" className="home-slider-item">
             <div className="home-slider-item__content">
               <div className="home-slider-item__text">
                 <h1 className="home-slider-item__title">
@@ -34,8 +34,8 @@ class HomeSlider extends Component {
               alt=""
               className="home-slider-item__image"
             />
-          </div>
-          <div className="home-slider-item">
+          </Link>
+          <Link to="#" className="home-slider-item">
             <div className="home-slider-item__content">
               <div className="home-slider-item__text">
                 <h1 className="home-slider-item__title">
@@ -51,7 +51,7 @@ class HomeSlider extends Component {
               alt=""
               className="home-slider-item__image"
             />
-          </div>
+          </Link>
         </div>
       </div>
     );
