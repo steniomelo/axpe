@@ -1,5 +1,5 @@
 .home-banner {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .home-banner-item {
@@ -8,4 +8,10 @@
 
 .home-banner-item__image {
   width: 100%;
+}
+
+@include min-screen(mq('desktop')) {
+  .home-banner {
+    margin-bottom: 10px;
+  }
 }

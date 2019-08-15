@@ -12,7 +12,8 @@ class HomeFeaturedRealty extends Component {
       pageDots: false,
       adaptiveHeight: true,
       selectedAttraction: 0.2,
-      friction: 0.8
+      friction: 0.8,
+      draggable: false
     });
   }
 
@@ -37,20 +38,23 @@ class HomeFeaturedRealty extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="btn btn-orange">Saiba mais</button>
+                <button className="home-slider-item__btn btn btn-orange">
+                  Saiba mais
+                </button>
               </div>
             </div>
-
-            <img
-              src={homeFeaturedRealtyImage}
-              alt=""
-              className="home-slider-item__image hide-mobile"
-            />
-            <img
-              src={homeFeaturedRealtyImageMobile}
-              alt=""
-              className="home-slider-item__image show-mobile"
-            />
+            <div className="home-slider-item__images">
+              <img
+                src={homeFeaturedRealtyImage}
+                alt=""
+                className="home-slider-item__image hide-mobile"
+              />
+              <img
+                src={homeFeaturedRealtyImageMobile}
+                alt=""
+                className="home-slider-item__image show-mobile"
+              />
+            </div>
           </Link>
           <Link to="#" className="home-slider-item">
             <div className="home-slider-item__content">

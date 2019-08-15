@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import HomeSlider from 'javascripts/components/home/home-slider';
 import HomeBanner from 'javascripts/components/home/home-banner';
 import HomeFeaturedRealty from '../components/home/home-featured-realty';
+import HomeFeaturedMosaic from '../components/home/home-featured-mosaic';
 
 const Home = () => (
   <Fragment>
@@ -20,6 +21,7 @@ const Home = () => (
       <HomeSlider />
       <HomeBanner />
       <HomeFeaturedRealty />
+      <HomeFeaturedMosaic />
     </div>
   </Fragment>
 );
