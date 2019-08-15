@@ -5,3 +5,13 @@
     background: none;
   }
 }
+
+.flickity-button-icon {
+  transform: scale(0.7);
+}
+
+@include min-screen(mq('desktop')) {
+  .flickity-button-icon {
+    transform: scale(1);
+  }
+}

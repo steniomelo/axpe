@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+
+// assets
+import cardImage from 'images/tmp/card-imovel.png';
+import cardImageMobile from 'images/tmp/card-imovelMobile.png';
+
+class Card extends Component {
+  render() {
+    const classes = [ `card` ];
+
+    if (this.props.horz) {
+      classes.push('card--horz');
+    }
+
+    return (
+      <div className={classes.join(' ')}>
+        <div className="card-image">
+          <img src={cardImage} alt="" className="card-img card-img--desktop" />
+          <img
+            src={cardImageMobile}
+            alt=""
+            className="card-img card-img--mobile"
+          />
+        </div>
+        <div className="card-content">
+          <div className="card-text">
+            <div className="card-text__title">Vila madalena</div>
+            <div className="card-text__description">
+              Apartamento, 90 m²
+              <br />
+              Venda: R$ 1.120.000
+              <br />
+              Aluguel: R$ 5.200
+            </div>
+            <div className="card-text__ref">Ref AX3715</div>
+          </div>
+          <div className="card-button">
+            <button className="btn">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Card;

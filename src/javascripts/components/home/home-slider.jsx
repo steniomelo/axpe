@@ -10,6 +10,8 @@ class HomeSlider extends Component {
     this.homeSlider = new Flickity(this.refs.homeSlider, {
       pageDots: false,
       adaptiveHeight: true
+      // autoPlay: 1500,
+      // wrapAround: true
     });
   }
 

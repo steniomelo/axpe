@@ -1,0 +1,44 @@
+.card-list {
+  padding: 0 30px;
+
+  .card {
+    margin-right: 10px;
+  }
+
+  .flickity-button {
+    &.previous {
+      left: -15px;
+    }
+
+    &.next {
+      right: -15px;
+    }
+  }
+}
+
+.card-list--horz {
+  .card--horz {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+}
+
+.card-list-item {
+  width: 100%;
+}
+
+@include min-screen(mq('desktop')) {
+  .card-list {
+    padding: 0;
+
+    .flickity-button {
+      &.previous {
+        left: -55px;
+      }
+
+      &.next {
+        right: -55px;
+      }
+    }
+  }
+}

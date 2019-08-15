@@ -35,6 +35,7 @@ button {
 .wrapper {
   overflow-y: auto;
   padding-top: 82px;
+  max-width: 1500px;
 }
 
 @include min-screen(mq('desktop')) {
@@ -46,6 +47,9 @@ button {
 
   .main {
     display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
   }
 
   .wrapper {
