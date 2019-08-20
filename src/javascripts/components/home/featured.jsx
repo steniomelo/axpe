@@ -30,8 +30,8 @@ class HomeSlider extends Component {
               </div>
             </div>
 
-            <img
-              src={homeSliderImage}
+            <div
+              style={{ backgroundImage: 'url(' + homeSliderImage + ')' }}
               alt=""
               className="home-featured-item__image"
             />
@@ -47,8 +47,8 @@ class HomeSlider extends Component {
                 </p>
               </div>
             </div>
-            <img
-              src={homeSliderImage}
+            <div
+              style={{ backgroundImage: 'url(' + homeSliderImage + ')' }}
               alt=""
               className="home-featured-item__image"
             />

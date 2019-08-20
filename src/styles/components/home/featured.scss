@@ -33,10 +33,11 @@
 .home-featured-item__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: left center;
+  // object-fit: cover;
+  // object-position: left center;
   transform: scale(1.2);
   transition: all 0.5s ease;
+  background-size: cover;
 }
 
 .home-featured-item__content {
@@ -71,7 +72,7 @@
 
 .home-featured-item__title {
   font-size: 38px;
-  font-family: 'Bitter', serif;
+  font-family: $Bitter;
   letter-spacing: 1.9px;
   transform: translateY(50px);
   opacity: 0;
@@ -184,7 +185,7 @@
   .mosaic-text {
     background-color: color('greenmoss');
     color: color('white');
-    font-family: 'Bitter', serif;
+    font-family: $Bitter;
     display: flex;
     align-items: center;
     font-size: 22px;

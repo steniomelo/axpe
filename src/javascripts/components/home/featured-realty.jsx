@@ -38,19 +38,22 @@ class HomeFeaturedRealty extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="home-featured-item__btn btn btn-orange">
+                <button className="home-featured-item__btn btn">
                   Saiba mais
                 </button>
               </div>
             </div>
             <div className="home-featured-item__images">
-              <img
-                src={homeFeaturedRealtyImage}
-                alt=""
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImage + ')'
+                }}
                 className="home-featured-item__image hide-mobile"
               />
-              <img
-                src={homeFeaturedRealtyImageMobile}
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImageMobile + ')'
+                }}
                 alt=""
                 className="home-featured-item__image show-mobile"
               />
@@ -73,22 +76,25 @@ class HomeFeaturedRealty extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="home-featured-item__btn btn btn-orange">
+                <button className="home-featured-item__btn btn">
                   Saiba mais
                 </button>
               </div>
             </div>
-
-            <img
-              src={homeFeaturedRealtyImage}
-              alt=""
-              className="home-featured-item__image hide-mobile"
-            />
-            <img
-              src={homeFeaturedRealtyImageMobile}
-              alt=""
-              className="home-featured-item__image show-mobile"
-            />
+            <div className="home-featured-item__images">
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImage + ')'
+                }}
+                className="home-featured-item__image hide-mobile"
+              />
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImageMobile + ')'
+                }}
+                className="home-featured-item__image show-mobile"
+              />
+            </div>
           </Link>
         </div>
       </div>

@@ -48,7 +48,7 @@ class HomeFeaturedMosaic extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="home-featured-item__btn btn btn-orange">
+                <button className="home-featured-item__btn btn">
                   Saiba mais
                 </button>
               </div>
@@ -62,15 +62,19 @@ class HomeFeaturedMosaic extends Component {
               className="home-featured-item__images show-mobile"
               ref="homeFeaturedMosaicImages"
             >
-              <img
-                src={homeFeaturedRealtyImageMobile}
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImageMobile + ')'
+                }}
                 alt=""
                 className="home-featured-item__image "
               />
-              <img
-                src={homeFeaturedRealtyImageMobile}
+              <div
+                style={{
+                  backgroundImage: 'url(' + homeFeaturedRealtyImageMobile + ')'
+                }}
                 alt=""
-                className="home-featured-item__image"
+                className="home-featured-item__image "
               />
             </div>
 
@@ -79,22 +83,25 @@ class HomeFeaturedMosaic extends Component {
                 <div className="mosaic-row--left mosaic-text">
                   <h3>Quarto com varanda, cozinha industrial</h3>
                 </div>
-                <img
-                  src={homeFeaturedMosaicImage1}
-                  alt=""
+                <div
+                  style={{
+                    backgroundImage: 'url(' + homeFeaturedMosaicImage1 + ')'
+                  }}
                   className="home-featured-item__image mosaic-row--right"
                 />
               </div>
 
               <div className="mosaic-row">
-                <img
-                  src={homeFeaturedMosaicImage1}
-                  alt=""
+                <div
+                  style={{
+                    backgroundImage: 'url(' + homeFeaturedMosaicImage1 + ')'
+                  }}
                   className="home-featured-item__image mosaic-row--left"
                 />
-                <img
-                  src={homeFeaturedMosaicImage1}
-                  alt=""
+                <div
+                  style={{
+                    backgroundImage: 'url(' + homeFeaturedMosaicImage1 + ')'
+                  }}
                   className="home-featured-item__image mosaic-row--right"
                 />
               </div>
