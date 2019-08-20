@@ -1,13 +1,8 @@
-.section {
-  background-color: color('ice');
-  padding: 30px 0;
-}
-
-.section-item {
+.block {
   margin-bottom: 40px;
 }
 
-.section-item__header-title {
+.block-title {
   font-family: 'Bitter', serif;
   font-size: 22px;
   font-weight: bold;
@@ -16,11 +11,11 @@
 }
 
 @include min-screen(mq('desktop')) {
-  .section {
+  .block {
     padding: 55px 0;
   }
 
-  .section-item__header-title {
+  .block-title {
     text-align: left;
     font-size: 41px;
   }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Flickity from 'flickity-fade';
 
 // assets
@@ -17,15 +16,15 @@ class HomeSlider extends Component {
 
   render() {
     return (
-      <div className="home-slider">
-        <div className="home-slider-items" ref="homeSlider">
-          <Link to="#" className="home-slider-item">
-            <div className="home-slider-item__content">
-              <div className="home-slider-item__text">
-                <h1 className="home-slider-item__title">
+      <div className="home-featured">
+        <div className="home-featured-items" ref="homeSlider">
+          <div className="home-featured-item">
+            <div className="home-featured-item__content">
+              <div className="home-featured-item__text">
+                <h1 className="home-featured-item__title">
                   Ambientes integrados e espaçosos
                 </h1>
-                <p className="home-slider-item__description">
+                <p className="home-featured-item__description">
                   Decoração e móveis seguem as últimas tendências de design.
                 </p>
               </div>
@@ -34,16 +33,16 @@ class HomeSlider extends Component {
             <img
               src={homeSliderImage}
               alt=""
-              className="home-slider-item__image"
+              className="home-featured-item__image"
             />
-          </Link>
-          <Link to="#" className="home-slider-item">
-            <div className="home-slider-item__content">
-              <div className="home-slider-item__text">
-                <h1 className="home-slider-item__title">
+          </div>
+          <div className="home-featured-item">
+            <div className="home-featured-item__content">
+              <div className="home-featured-item__text">
+                <h1 className="home-featured-item__title">
                   Ambientes integrados e espaçosos
                 </h1>
-                <p className="home-slider-item__description">
+                <p className="home-featured-item__description">
                   Decoração e móveis seguem as últimas tendências de design.
                 </p>
               </div>
@@ -51,9 +50,9 @@ class HomeSlider extends Component {
             <img
               src={homeSliderImage}
               alt=""
-              className="home-slider-item__image"
+              className="home-featured-item__image"
             />
-          </Link>
+          </div>
         </div>
       </div>
     );

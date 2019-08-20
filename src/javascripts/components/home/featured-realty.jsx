@@ -19,18 +19,18 @@ class HomeFeaturedRealty extends Component {
 
   render() {
     return (
-      <div className="home-slider home-slider--white">
-        <div className="home-slider-items" ref="homeFeaturedRealty">
-          <Link to="#" className="home-slider-item">
-            <div className="home-slider-item__content">
-              <div className="home-slider-item__text">
-                <h1 className="home-slider-item__title">
+      <div className="home-featured home-featured--white">
+        <div className="home-featured-items" ref="homeFeaturedRealty">
+          <Link to="#" className="home-featured-item">
+            <div className="home-featured-item__content">
+              <div className="home-featured-item__text">
+                <h1 className="home-featured-item__title">
                   Ambientes espaçoso e com cara de casa
                 </h1>
-                <strong className="home-slider-item__subtitle">
+                <strong className="home-featured-item__subtitle">
                   VILA MADALENA
                 </strong>
-                <p className="home-slider-item__description">
+                <p className="home-featured-item__description">
                   Apartamento, 90 m² <br />
                   Venda: R$ 1.120.000 <br />
                   Aluguel: R$ 5.200 <br />
@@ -38,34 +38,34 @@ class HomeFeaturedRealty extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="home-slider-item__btn btn btn-orange">
+                <button className="home-featured-item__btn btn btn-orange">
                   Saiba mais
                 </button>
               </div>
             </div>
-            <div className="home-slider-item__images">
+            <div className="home-featured-item__images">
               <img
                 src={homeFeaturedRealtyImage}
                 alt=""
-                className="home-slider-item__image hide-mobile"
+                className="home-featured-item__image hide-mobile"
               />
               <img
                 src={homeFeaturedRealtyImageMobile}
                 alt=""
-                className="home-slider-item__image show-mobile"
+                className="home-featured-item__image show-mobile"
               />
             </div>
           </Link>
-          <Link to="#" className="home-slider-item">
-            <div className="home-slider-item__content">
-              <div className="home-slider-item__text">
-                <h1 className="home-slider-item__title">
+          <Link to="#" className="home-featured-item">
+            <div className="home-featured-item__content">
+              <div className="home-featured-item__text">
+                <h1 className="home-featured-item__title">
                   Ambientes espaçoso e com cara de casa
                 </h1>
-                <strong className="home-slider-item__subtitle">
+                <strong className="home-featured-item__subtitle">
                   VILA MADALENA
                 </strong>
-                <p className="home-slider-item__description">
+                <p className="home-featured-item__description">
                   Apartamento, 90 m² <br />
                   Venda: R$ 1.120.000 <br />
                   Aluguel: R$ 5.200 <br />
@@ -73,7 +73,7 @@ class HomeFeaturedRealty extends Component {
                   Ref AX3715
                 </p>
 
-                <button className="home-slider-item__btn btn btn-orange">
+                <button className="home-featured-item__btn btn btn-orange">
                   Saiba mais
                 </button>
               </div>
@@ -82,12 +82,12 @@ class HomeFeaturedRealty extends Component {
             <img
               src={homeFeaturedRealtyImage}
               alt=""
-              className="home-slider-item__image hide-mobile"
+              className="home-featured-item__image hide-mobile"
             />
             <img
               src={homeFeaturedRealtyImageMobile}
               alt=""
-              className="home-slider-item__image show-mobile"
+              className="home-featured-item__image show-mobile"
             />
           </Link>
         </div>

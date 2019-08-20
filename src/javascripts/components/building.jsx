@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 // assets
 import cardImage from 'images/tmp/card-imovel.png';
 import cardImageMobile from 'images/tmp/card-imovelMobile.png';
 
-class Card extends Component {
+class Building extends Component {
   render() {
     const classes = [ `card` ];
 
@@ -32,10 +33,12 @@ class Card extends Component {
               <br />
               Aluguel: R$ 5.200
             </div>
-            <div className="card-text__ref">Ref AX3715</div>
+            <p className="card-text__ref">Ref AX3715</p>
           </div>
           <div className="card-button">
-            <button className="btn">Saiba mais</button>
+            <Link to="" className="btn">
+              Saiba mais
+            </Link>
           </div>
         </div>
       </div>
@@ -43,4 +46,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default Building;

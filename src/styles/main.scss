@@ -36,6 +36,7 @@ button {
   overflow-y: auto;
   padding-top: 82px;
   max-width: 1500px;
+  background-color: color('ice');
 }
 
 @include min-screen(mq('desktop')) {
