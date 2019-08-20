@@ -1,0 +1,22 @@
+.block {
+  margin-bottom: 40px;
+}
+
+.block-title {
+  font-family: $Bitter;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@include min-screen(mq('desktop')) {
+  .block {
+    padding: 55px 0;
+  }
+
+  .block-title {
+    text-align: left;
+    font-size: 41px;
+  }
+}

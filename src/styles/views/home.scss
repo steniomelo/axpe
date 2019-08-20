@@ -1,5 +1,11 @@
 // home.scss
 
-.teste {
-  display: block;
+.home-buildings {
+  padding: 30px 0;
+}
+
+@include min-screen(mq('desktop')) {
+  .home-buildings {
+    padding: 55px 0;
+  }
 }

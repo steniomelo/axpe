@@ -2,6 +2,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: color('bluedark');
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -31,6 +32,13 @@ button {
   -webkit-appearance: none;
 }
 
+.wrapper {
+  overflow-y: auto;
+  padding-top: 82px;
+  max-width: 1500px;
+  background-color: color('ice');
+}
+
 @include min-screen(mq('desktop')) {
   html,
   body,
@@ -40,10 +48,13 @@ button {
 
   .main {
     display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
   }
 
   .wrapper {
     flex: 1 1 auto;
-    background-color: azure;
+    padding-top: 0;
   }
 }

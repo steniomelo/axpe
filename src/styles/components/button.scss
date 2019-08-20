@@ -1,0 +1,20 @@
+.btn {
+  background-color: color('orange');
+  padding: 14px 30px;
+  border-radius: 4px;
+  color: color('white');
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+@include min-screen(mq('desktop')) {
+  .btn {
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    width: auto;
+  }
+}

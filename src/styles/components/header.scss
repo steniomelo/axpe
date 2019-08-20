@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: white;
 }
 
 .header-elements {
@@ -27,10 +31,21 @@
 }
 
 .header-content {
-  display: flex;
+  display: none;
   flex-direction: column;
   flex: 1 0 auto;
   padding-top: $padding-mobile;
+}
+
+.header--active {
+  .header-content {
+    display: flex;
+    height: calc(100% - 82px);
+    overflow-y: auto;
+  }
+
+  overflow: hidden;
+  height: 100%;
 }
 
 .header-nav {
@@ -60,7 +75,7 @@
       color: color('orange');
     }
 
-    .header-nav-item__icon svg * {
+    .header-nav-item__icon * {
       stroke: color('orange');
     }
   }
@@ -134,15 +149,9 @@
 }
 
 .header-info-whatsapp__icon {
-  flex: 0 0 20px;
   margin-right: 10px;
-  text-align: center;
-  transition: all 300ms ease;
-
-  svg {
-    width: 30px;
-    height: 30px;
-  }
+  width: 30px;
+  height: 30px;
 }
 
 .header-info-whatsapp__label {
@@ -208,6 +217,7 @@
     width: 200px;
     flex: 0 0 200px;
     text-align: left;
+    position: relative;
   }
 
   .header-elements {
@@ -218,6 +228,7 @@
   }
 
   .header-content {
+    display: flex;
     padding-top: 0;
   }
 
@@ -258,10 +269,8 @@
   }
 
   .header-info-whatsapp__icon {
-    svg {
-      width: 17px;
-      height: 17px;
-    }
+    width: 25px;
+    height: 25px;
   }
 
   .header-info-whatsapp__label {

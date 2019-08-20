@@ -1,0 +1,44 @@
+.building-list {
+  padding: 0 30px;
+
+  .card {
+    margin-right: 10px;
+  }
+
+  .flickity-button {
+    &.previous {
+      left: -45px;
+    }
+
+    &.next {
+      right: -45px;
+    }
+  }
+}
+
+.building-list--horz {
+  .card--horz {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+}
+
+.building-list-item {
+  width: 100%;
+}
+
+@include min-screen(mq('desktop')) {
+  .building-list {
+    padding: 0;
+
+    .flickity-button {
+      &.previous {
+        left: -55px;
+      }
+
+      &.next {
+        right: -55px;
+      }
+    }
+  }
+}

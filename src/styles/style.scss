@@ -1,3 +1,5 @@
+@import '../../node_modules/flickity/css/flickity.css';
+@import '../../node_modules/flickity-fade/flickity-fade.css';
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/media-queries';
@@ -5,5 +7,12 @@
 @import 'fonts';
 @import 'helpers/helpers';
 @import 'main';
+@import 'components/flickity';
+@import 'components/button';
 @import 'components/header';
+@import 'components/home/featured';
+@import 'components/home/banner';
+@import 'components/block';
+@import 'components/card';
+@import 'components/building-list';
 @import 'views/home';
