@@ -2,7 +2,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: color('bluedark');
-  font-family: 'Raleway', sans-serif;
+  font-family: $Raleway;
 }
 
 a {
@@ -21,6 +21,13 @@ img {
 
 input {
   outline: none;
+}
+
+h2,
+h2 span {
+  font-size: 38px;
+  font-family: $Bitter;
+  font-weight: 700;
 }
 
 button {
@@ -56,5 +63,10 @@ button {
   .wrapper {
     flex: 1 1 auto;
     padding-top: 0;
+  }
+
+  h2,
+  h2 span {
+    font-size: 40px;
   }
 }

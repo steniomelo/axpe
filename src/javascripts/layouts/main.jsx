@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // components
 import Header from 'javascripts/components/header';
+import Footer from 'javascripts/components/footer';
 
 // constants
 import { ROUTES } from 'javascripts/helpers/routes';
@@ -23,6 +24,7 @@ class Layout extends Component {
           <Header />
           <div className="wrapper">
             <Switch>{this.getRoutes()}</Switch>
+            <Footer />
           </div>
         </Fragment>
       </BrowserRouter>
