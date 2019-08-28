@@ -98,7 +98,7 @@ class Header extends Component {
             <ul className="header-nav-items">
               <li className="header-nav-item">
                 <NavLink
-                  to="/contato"
+                  to="/sobre"
                   activeClassName="is-active"
                   className="header-nav-item__btn"
                 >
