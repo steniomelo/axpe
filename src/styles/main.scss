@@ -40,7 +40,7 @@ button {
 }
 
 .wrapper {
-  overflow-y: auto;
+  //overflow-y: auto;
   padding-top: 82px;
   max-width: 1500px;
   background-color: color('ice');
@@ -63,6 +63,7 @@ button {
   .wrapper {
     flex: 1 1 auto;
     padding-top: 0;
+    margin-left: $header-width;
   }
 
   h2,
