@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="15px" viewBox="0 0 9 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Keyboard Arrow - Right / Two-toned Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.688333333 13.23 6.03166667 7.875 0.688333333 2.52 2.33333333 0.875 9.33333333 7.875 2.33333333 14.875"></polygon>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Busca-Imoveis-04---SP-4" transform="translate(-321.000000, -366.000000)">
+            <g id="Group-4">
+                <g id="Group-25">
+                    <g id="BUSCA-01-Copy">
+                        <g id="Group-2" transform="translate(29.041436, 149.000000)">
+                            <g id="Botão-Morar" transform="translate(0.000000, 27.000000)">
+                                <g id="Group-12" transform="translate(0.958564, 167.000000)">
+                                    <g id="Icon-/-Keyboard-Arrow---Right-/-Two-toned-Copy" transform="translate(295.000000, 31.000000) scale(-1, 1) translate(-295.000000, -31.000000) translate(281.000000, 17.000000)">
+                                        <g transform="translate(14.000000, 13.416667) rotate(180.000000) translate(-14.000000, -13.416667) translate(9.333333, 5.833333)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Mask" fill-rule="nonzero"></g>
+                                            <g id="✱-/-Color-/-Icons-/-Selected-/-On-Surface-/-Inactive" mask="url(#mask-2)" fill="#37474F">
+                                                <g transform="translate(-9.333333, -7.000000)" id="Rectangle">
+                                                    <rect x="0" y="0" width="28" height="28"></rect>
+                                                </g>
+                                            </g>
+                                            <rect id="Rectangle-3" fill="#FFFFFF" mask="url(#mask-2)" x="-7" y="-2.33333333" width="22.1666667" height="21"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
