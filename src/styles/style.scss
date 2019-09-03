@@ -1,5 +1,6 @@
 @import '../../node_modules/flickity/css/flickity.css';
 @import '../../node_modules/flickity-fade/flickity-fade.css';
+@import '../../node_modules/react-input-range/lib/css/index.css';
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/media-queries';
@@ -18,5 +19,6 @@
 @import 'components/card';
 @import 'components/building-list';
 @import 'components/page-header';
+@import 'components/input-range';
 @import 'views/home';
 @import 'views/about';

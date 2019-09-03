@@ -17,7 +17,9 @@ class Footer extends Component {
                 Conte o que está buscando e vamos encontrar o imóvel dos seus
                 sonhos
               </p>
-              <Link className="footer-button btn">Entre em contato</Link>
+              <Link to="" className="footer-button btn">
+                Entre em contato
+              </Link>
             </div>
           </div>
         </div>
