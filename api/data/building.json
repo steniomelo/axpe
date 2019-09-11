@@ -1,49 +1,91 @@
 {
-  "slug": "apartamento-ax3715",
-  "title": "Apartamento espaçoso com cara de casa",
-  "reference": "AX3715",
-  "address": {
-    "condominium": "Edificio Residencial",
-    "neighborhood": "Vila Madalena",
-    "city": "São Paulo",
-    "state": "SP"
-  },
-  "values": {
-    "rent": "R$ 5.200",
-    "sell": "R$ 1.220.000",
-    "free": "A partir de R$ 1.650.000"
-  },
-  "infos": {
-    "type": "Apartamento",
-    "areaUseful": "54 m² a 124 m²",
-    "areaTotal": "90 m²",
-    "areaBuilding": "140 m²",
-    "areaGround": "125 m²",
-    "bedrooms": "2 a 4",
-    "suites": "2",
-    "parking": "1 a 3",
-    "release": "Outubro de 2019",
-    "releaseStatus": "Em construção"
-  },
-  "tour360": "http://www.tour360.com",
-  "content": "Casa loft com arquitetura escandinava e design superdescolado. Tem jardim e dá para ir a pé ao clube.",
-  "images": {
-    "desktop": "https://picsum.photos/id/401/570/370",
-    "mobile": "https://picsum.photos/id/401/340/245"
-  },
-  "gallery": [
-    {
-      "desktop": "https://picsum.photos/id/401/570/530",
-      "mobile": "https://picsum.photos/id/401/375/375"
+    "type": "pronto",
+    "source": "vista",
+    "slug": "AX11660",
+    "title": "Para voltar aos anos 60. Bem ensolarado, com reforma descolada e vista bacana para a Pompéia.",
+    "reference": "AX11660",
+    "address": {
+        "condominium": false,
+        "region": "SP",
+        "local": "Vila Beatriz"
     },
-    {
-      "desktop": "https://picsum.photos/id/401/570/530",
-      "mobile": "https://picsum.photos/id/401/375/375"
+    "values": {
+        "rent": 3500,
+        "release": 0,
+        "sell": 1000000,
+        "free": 0
+    },
+    "infos": {
+        "use": "RESIDENCIAL",
+        "type": "VENDA E ALUGUEL",
+        "areaUseful": null,
+        "areaUsefulStart": null,
+        "areaUsefulEnd": null,
+        "areaTotal": "108.59",
+        "areaBuilding": null,
+        "areaGround": null,
+        "bedrooms": "3",
+        "bedroomsStart": null,
+        "bedroomsEnd": null,
+        "suites": "1",
+        "parking": "4",
+        "parkingStart": null,
+        "parkingEnd": null,
+        "release": null,
+        "releaseStatus": null,
+        "releaseDelivery": null,
+        "disclaimer": null,
+        "valueOnlyRequest": false
+    },
+    "tour360": null,
+    "content": "Para voltar aos anos 60. Bem ensolarado, com reforma descolada e vista bacana para a Pompéia.",
+    "imageFeatured": {
+        "desktop": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2154269.jpg",
+        "mobile": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2154269.jpg"
+    },
+    "gallery": [
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2154269.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2257875.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2359193.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_2459942.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_250543.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_261146.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_27295.jpg"
+        },
+        {
+            "tipo": "imagem",
+            "src": "http://vistasoft.axpe.com.br/vistasoft//vista.imobi/fotos/65451/iaxpenego65451_282758.jpg"
+        }
+    ],
+    "components": {
+        "porque-adoramos": [],
+        "destaque-1": [],
+        "destaque-2": [],
+        "destaque-3": [],
+        "galeria-imagens-texto": [],
+        "imagem-destaque": [],
+        "destaque-texto": [],
+        "destaque-texto-bullets": [],
+        "plantas": []
     }
-  ],
-  "link": {
-    "target": "_self",
-    "external": false,
-    "url": "/imovel/ax3715"
-  }
 }
