@@ -1,41 +1,41 @@
-.footer-container {
+.footer__container {
   background-color: color('greenmoss');
   padding: 30px 80px 30px 10px;
   color: color('white');
 }
 
-.footer-title {
+.footer__title {
   margin-bottom: 30px;
 }
 
-.footer-title--green {
+.footer__title-green {
   color: color('green');
   font-family: $Raleway;
   font-weight: 900;
 }
 
-.footer-title--orange {
+.footer__title-orange {
   color: color('orange');
   font-family: $Raleway;
   font-weight: 900;
 }
 
-.footer-text {
+.footer__text {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.footer-contact {
+.footer__contact {
   text-align: center;
   padding: 20px;
 }
 
-.footer-contact-title {
+.footer__contact-title {
   font-size: 18px;
   font-family: $Bitter;
 }
 
-.footer-contact-phone {
+.footer__contact-phone {
   font-size: 20px;
   font-family: $Bitter;
   font-weight: 700;
@@ -43,23 +43,23 @@
   margin-bottom: 10px;
 }
 
-.footer-contact-creci {
+.footer__contact-creci {
   font-size: 12px;
 }
 
 @include min-screen(mq('desktop')) {
-  .footer-container {
+  .footer__container {
     padding: 55px 120px;
   }
 
-  .footer-content {
+  .footer__content {
     max-width: 655px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .footer-title {
+  .footer__title {
     margin-bottom: 0;
     line-height: 47px;
   }
