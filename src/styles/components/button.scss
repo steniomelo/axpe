@@ -10,6 +10,21 @@
   text-align: center;
 }
 
+.btn--outline {
+  border: 2px solid white;
+  background: none;
+
+  &.btn--active {
+    background-color: white;
+    color: color('bluedark');
+  }
+}
+
+.btn--sm {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
 @include min-screen(mq('desktop')) {
   .btn {
     padding: 10px 30px;
@@ -17,5 +32,10 @@
     font-size: 15px;
     width: auto;
     display: inline-block;
+  }
+
+  .btn--sm {
+    padding: 10px 0;
+    font-size: 12px;
   }
 }

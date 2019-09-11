@@ -1,0 +1,253 @@
+// .search {
+//   position: fixed;
+//   top: 0;
+//   left: $header-width;
+//   background-color: rgba(color('greendark'), 0.8);
+//   width: calc(100% - #{$header-width});
+//   height: 100%;
+//   z-index: 100;
+// }
+
+.search {
+  position: absolute;
+  left: -1000%;
+  top: 0;
+  opacity: 0;
+  z-index: 100;
+  transition: opacity 0.1s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.search-form {
+  width: 100%;
+  height: 100%;
+  background-color: color('greenmoss');
+  transition: all 0.2s ease 0.2s;
+  color: color('white');
+  padding: 50px 30px 30px 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.search--active {
+  left: 0;
+  opacity: 1;
+
+  .search-form {
+    transform: translateX(0);
+  }
+}
+
+.search-form-header {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.search-form-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.search-form__icon-close g {
+  stroke: color('white');
+}
+
+.search-form__want-building-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.search-form__want-building-field {
+  position: relative;
+}
+
+.search-form__want-building-field__input {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 3px 120px 3px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.search-form__want-building-field__btn {
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  color: color('white');
+}
+
+.search-form-filters {
+  flex: 1 0 auto;
+  margin-bottom: 15px;
+}
+
+.search-form-filters__to {
+  margin-bottom: 5px;
+}
+
+.search-form-filters__to-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.search-form-filters__to-buttons__row {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.search-form-filters__to-button {
+  flex: 1 1 50%;
+}
+
+.search-form-filters__to-or {
+  margin: 0 10px;
+}
+
+.search-form-filters__menu {
+  padding: 0 2px;
+}
+
+.search-form-filters__menu-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 1px solid color('gray');
+  padding: 10px 5px;
+  width: 100%;
+  color: color('white');
+  justify-content: center;
+  min-height: 65px;
+
+  &:first-child {
+    border-top: 1px solid color('gray');
+  }
+}
+
+.search-form-filters__menu-item__arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-form-filters__menu-item__type {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.search-form-filters__menu-item__selected {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: color('ice');
+  margin-top: 5px;
+}
+
+.search-form-footer {
+  flex-grow: 0;
+}
+
+.search-form-footer__field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.search-form-footer__field-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+.search-form-footer__field-input {
+  background-color: rgba(color('white'), 0.65);
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+}
+
+.search-form-footer__button {
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.search-form-footer__options {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.search-form-footer__options-addalert {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.search-form-footer__options-addalert-icon {
+  margin-right: 10px;
+}
+
+.search-form-footer__options-addalert-button {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: color('white');
+}
+
+.search-form-footer__options-addalert-button__label {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.search-form-footer__options-clearfilters {
+  flex: 1 1 auto;
+  text-align: right;
+  color: color('white');
+}
+
+.search-form-footer__options-clearfilters-button {
+  color: color('white');
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+@include min-screen(mq('desktop')) {
+  .search {
+    background-color: rgba(color('greendark'), 0.8);
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 2;
+    width: auto;
+    height: auto;
+  }
+
+  .search-form {
+    width: 362px;
+    height: 100%;
+    transform: translateX(-362px);
+  }
+
+  .search-form__want-building-title {
+    font-size: 16px;
+  }
+
+  .search-form-footer__button {
+    font-size: 15px;
+    width: 100%;
+  }
+}
