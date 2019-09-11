@@ -6,6 +6,7 @@ import HomeBanner from 'javascripts/components/home/banner';
 import HomeFeaturedRealty from 'javascripts/components/home/featured-realty';
 import HomeFeaturedMosaic from 'javascripts/components/home/featured-mosaic';
 import BuildingList from 'javascripts/components/building-list';
+import Footer from 'javascripts/components/footer';
 
 const Home = () => (
   <Fragment>
@@ -31,6 +32,7 @@ const Home = () => (
         </div>
       </section>
     </div>
+    <Footer />
   </Fragment>
 );
 

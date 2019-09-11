@@ -214,10 +214,12 @@
 
 @include min-screen(mq('desktop')) {
   .header {
-    width: 200px;
+    width: $header-width;
+    height: 100%;
     flex: 0 0 200px;
     text-align: left;
-    position: relative;
+    left: 0;
+    // position: relative;
   }
 
   .header-elements {
@@ -304,5 +306,12 @@
 
   .header-info-social__small {
     font-size: 11px;
+  }
+}
+
+@include min-screen(mq('desktop-big')) {
+  .header {
+    left: unset;
+    transform: translateX(-700px);
   }
 }
