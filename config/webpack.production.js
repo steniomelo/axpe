@@ -11,6 +11,7 @@ module.exports = {
     resolve(__dirname, '../src/javascripts/app.jsx')
   ],
   mode: 'production',
+  performance: { hints: false },
   module: {
     rules: [
       {

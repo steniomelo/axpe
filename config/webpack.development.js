@@ -22,6 +22,7 @@ module.exports = {
       'Access-Control-Allow-Origin': '*'
     }
   },
+  performance: { hints: false },
   module: {
     rules: [
       {
